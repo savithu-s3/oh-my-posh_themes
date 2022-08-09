@@ -1,0 +1,200 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "blocks": [
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "type": "os",
+          "style": "plain",
+          "foreground": "#ff0000",
+          "properties": {
+            "alpine": "\uf300",
+            "arch": "\uf303",
+            "centos": "\uf304",
+            "debian": "\uf306",
+            "elementary": "\uf309",
+            "fedora": "\uf30a",
+            "gentoo": "\uf30d",
+            "linux": "\ue712",
+            "macos": "\ue711",
+            "manjaro": "\uf312",
+            "mint": "\uf30f",
+            "opensuse": "\uf314",
+            "raspbian": "\uf315",
+            "ubuntu": "\uf31c",
+            "wsl": "\ue712",
+            "wsl_separator": " on ",
+            "windows": "\ufa6f",
+            "prefix": "<#ff0000>┏[</>",
+            "postfix": "<#ff0000>]</>"
+          }
+        },
+        {
+          "type": "session",
+          "style": "plain",
+          "foreground": "#fffaaa",
+          "properties": {
+            "user_info_separator": "<#06bb00>@</>",
+            "display_host": true,
+            "prefix": "<#ffffff>-</><#ff0000>[</>",
+            "postfix": "<#ff0000>]</><#ffffff>-</>"
+          }
+        },
+        {
+          "type": "git",
+          "style": "plain",
+          "foreground": "#ffffff",
+          "properties": {
+            "prefix": "<#ff0000>[</>",
+            "postfix": "<#ff0000>]</>-"
+          }
+        },
+        {
+          "type": "node",
+          "style": "plain",
+          "foreground": "#003cff",
+          "properties": {
+            "prefix": "<#ff0000>[</>",
+            "postfix": " <#06bb00>\uF898</><#ff0000>]</><#ffffff>-</>",
+            "display_version": true
+          }
+        },
+        {
+          "type": "go",
+          "style": "plain",
+          "foreground": "#003cff",
+          "properties": {
+            "prefix": "<#ff0000>[</>",
+            "postfix": " \uE627<#ff0000>]</><#ffffff>-</>",
+            "display_version": true
+          }
+        },
+        {
+          "type": "julia",
+          "style": "plain",
+          "foreground": "#003cff",
+          "properties": {
+            "prefix": "<#ff0000>[</>",
+            "postfix": " \uE624<#ff0000>]</><#ffffff>-</>",
+            "display_version": true
+          }
+        },
+        {
+          "type": "python",
+          "style": "plain",
+          "foreground": "#003cff",
+          "properties": {
+            "postfix": " \uE235<#ff0000>]</><#ffffff>-</>",
+            "prefix": "<#ff0000>[</>",
+            "display_version": true,
+            "display_mode": "files",
+            "display_virtual_env": true
+          }
+        },
+        {
+          "type": "ruby",
+          "style": "plain",
+          "foreground": "#003cff",
+          "properties": {
+            "postfix": " \uE791<#ff0000>]</><#ffffff>-</>",
+            "prefix": "<#ff0000>[</>",
+            "display_version": true,
+            "display_mode": "files"
+          }
+        },
+        {
+          "type": "azfunc",
+          "style": "plain",
+          "foreground": "#003cff",
+          "properties": {
+            "postfix": " \uf0e7<#ff0000>]</>",
+            "prefix": "<#ff0000>[</>",
+            "display_version": false,
+            "display_mode": "files"
+          }
+        },
+        {
+          "type": "root",
+          "style": "plain",
+          "foreground": "#ffffff",
+          "properties": {
+            "prefix": "-<#ff0000>[</>",
+            "postfix": "<#ff0000>]</>-"
+          }
+        },
+        {
+          "type": "exit",
+          "style": "plain",
+          "foreground": "#ffffff",
+          "properties": {
+            "prefix": "<#ff0000>[x</>",
+            "postfix": "<#ff0000>]</>-"
+          }
+        },
+        {
+          "type": "executiontime",
+          "style": "plain",
+          "foreground": "#06bb00",
+          "properties": {
+            "threshold": 0,
+            "style": "dallas",
+            "prefix": "<#ffffff></><#ff0000>[</>",
+            "postfix": "s<#ff0000>]~</>"
+          }
+        }
+      ]
+    },
+    {
+      "type": "prompt",
+      "alignment": "right",
+      "segments": [
+        {
+          "type": "time",
+          "style": "plain",
+          "foreground": "#3EC669",
+          "properties": {
+            "time_format": "15:04:05",
+            "prefix": "<#ffffff>~[</>",
+            "postfix": "<#ffffff>]┐</>"
+          }
+        }
+      ]
+    },
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "newline": true,
+      "segments": [
+        {
+          "type": "path",
+          "style": "plain",
+          "foreground": "#ffffff",
+          "properties": {
+            "style": "full",
+            "prefix": "<#ff0000>┖[</>\uE5FF \ufc92 ",
+            "postfix": "<#ff0000>]</><#ffff00>-$</>"
+          }
+        }
+      ]
+    },
+    {
+      "type": "rprompt",
+      "segments": [
+        {
+          "type": "text",
+          "style": "plain",
+          "foreground": "#d3d7cf",
+          "properties": {
+            "text": "<┘",
+            "prefix": "",
+            "postfix": ""
+          }
+        }
+      ]
+    }
+
+  ],
+  "final_space": true
+}
