@@ -21,6 +21,12 @@ Go to [oh-my-posh documents](https://ohmyposh.dev/docs/) if you havent't install
 
 ***NOTE* :- oh-my-posh is not supported for CMD or command prompt.**
 
+# Links
+
+- [Oh-My-Posh Github repo](https://github.com/jandedobbeleer/oh-my-posh)
+- [Oh-My-Posh Website](https://ohmyposh.dev)
+- [Oh-My-Posh Documentation](https://ohmyposh.dev/docs/)
+
 # Social Media
 
 <p align="center">
