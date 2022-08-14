@@ -12,3 +12,7 @@ How to set the theme for oh-my-posh 👇
 That's all now enjoy!!!
 
 Go to [oh-my-posh documents](https://ohmyposh.dev/docs/) if you havent't installed and don't know how to install..!!
+
+<p align="center">
+<a href="https://discord.com/users/852854232435916800"><img src="https://img.shields.io/static/v1?logo=discord&label=&message=Discord&color=36393f&style=flat-square" alt="Discord"></a>
+</p>
