@@ -1,7 +1,10 @@
 # <h1 align="center" style="color:#F9C669"><font size="8" face="CaskaydiaCove NF">Themes for OH-MY-POSH by [SAVITHU_S3](https://github.com/savithu-s3)</font></h1>
 
 <p align="center">
-<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/savithu-s3/oh-my-posh_themes?style=social"></p>
+<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/savithu-s3/oh-my-posh_themes?color=blueviolet">
+<img alt="GitHub commit activity (branch)" src="https://img.shields.io/github/commit-activity/w/savithu-s3/oh-my-posh_themes?color=indigo">
+<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/savithu-s3/oh-my-posh_themes?color=red">
+</p>
 
 ---
 
@@ -21,13 +24,13 @@ Go to [oh-my-posh documents](https://ohmyposh.dev/docs/) if you havent't install
 
 ***NOTE* :- oh-my-posh is not supported for CMD or command prompt.**
 
-# Links
+# <h1 align="center">Links</h1>
 
 - [Oh-My-Posh Github repo](https://github.com/jandedobbeleer/oh-my-posh)
 - [Oh-My-Posh Website](https://ohmyposh.dev)
 - [Oh-My-Posh Documentation](https://ohmyposh.dev/docs/)
 
-# Social Media
+# <h1 align="center">Social Media</h1>
 
 <p align="center">
 <a href="https://github.com/savithu-s3"><img src="https://img.shields.io/static/v1?logo=github&label=&message=Github&color=36393f&style=flat-square" alt="Github"></a>
